@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1f1f1f9a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+h1{
+    padding: 15px 20px 20px 20px;
+}
+
+#foto{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: solid black 2px;
+    background-image: url(./src_CV/img/67167786_1073119756218318_7879375236909498368_n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
