@@ -1,10 +1,25 @@
+@font-face{
+    font-family: ubuntu;
+    src: url('./src_CV/fonts/Ubuntu_Mono/UbuntuMono-Bold.ttf'),
+     url('./src_CV/fonts/Ubuntu_Mono/UbuntuMono-BoldItalic.ttf'),
+     url('./src_CV/fonts/Ubuntu_Mono/UbuntuMono-Italic.ttf'),
+     url('./src_CV/fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf');
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
+    font-family: ubuntu;
+}
+
+body{
+    background-color: rgb(12, 25, 70);
 }
 
 header{
-    background-color: #1f1f1f9a;
+    background-image: url(./src_CV/img/img-bg-header/abstract-techno-background-with-connecting-lines/5570.jpg);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +28,7 @@ header{
 
 h1{
     padding: 15px 20px 20px 20px;
+    text-shadow: 0px 0px 3px blanchedalmond;
 }
 
 #foto{
@@ -24,4 +40,22 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
+}
+.container{
+    display: flex;
+    flex-flow:wrap column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.contenedores{
+    background-color: #5E2750;
+    margin-top: 10px;
+    padding: 10px;
+    color: #AEA79F;
+    width: 50%;
+    border-radius: .3em;
+}
+li{
+    margin: 5px;
 }
