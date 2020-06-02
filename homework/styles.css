@@ -1,5 +1,21 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./src/interior-restaurante/3394.jpg);
+    margin: 0;
+}
+
+
+
 h1{
-    color: brown;
+    color: brown; 
 }
 
 #spanId{
@@ -8,13 +24,34 @@ h1{
 }
 
 #thirdDiv{
-    width: 500px;
     height: 600px;
     padding: 50px;
-    border: solid 2px brown;
-    background-color: cadetblue;
+    margin: 20px;
+    border: solid 2px rgba(236, 233, 233, 0.822);
+    background-color: rgba(95, 158, 160, 0.527);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.507);
+    
 }
 
 img{
    width: 400px;
+}
+
+.divClass{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.507);
+}
+
+.tituloH{
+    margin-top: 1em;
+}
+
+#enlace{
+    color: white;
+    margin: 1em;
 }
